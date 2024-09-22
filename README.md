@@ -1,4 +1,13 @@
-# CUnit test framework basic implementation for C application
-CUnit framework is mainly used for C application testing while googletest framework is designed specifically for C++ application
+# Basic CUnit Test Framework Implementation for C Applications
 
-Here the typical implementation of unit testing is demonstrated, on the basis of which further development and testing can be done 
+The **CUnit** framework is designed for unit testing **C applications**, while frameworks like **GoogleTest** are primarily used for **C++** applications.
+
+This repository demonstrates a basic implementation of **CUnit** for testing **C applications**. It serves as a foundation for further development and testing of C programs.
+
+## Setting up CUnit Framework
+
+### 1. Install CUnit on Linux:
+To install the **CUnit** framework and its development headers on Linux, use the following command:
+```bash
+sudo apt-get install libcunit1 libcunit1-dev
+
